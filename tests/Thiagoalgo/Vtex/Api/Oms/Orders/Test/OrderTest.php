@@ -1,11 +1,12 @@
 <?php
 
-namespace Thiagoalgo\Vtex\Api\Oms\Order;
+namespace Thiagoalgo\Vtex\Api\Oms\Orders\Test;
 
+use Thiagoalgo\Vtex\Config\Config;
+use Thiagoalgo\Vtex\Api\Oms\Orders\Order;
+use PHPUnit\Framework\TestCase;
 
-use Thiagoalgo\Vtex\Api\Oms\Order;
-
-class OrderTest {
+class OrderTest extends TestCase {
     protected $config;
 
     public function setUp() {
@@ -13,10 +14,9 @@ class OrderTest {
     }
 
     public function testHasOrderId() {
-        $order = new Order($config);
+        $order = new Order($this->config);
         $ord = $order->get('v1850336lbll-01');
 
-        $ord = json_decode($ord);
         $this->assertArrayHasKey('orderId', $ord);
     }
 
