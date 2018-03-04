@@ -3,7 +3,7 @@ define("DS", DIRECTORY_SEPARATOR);
 require __DIR__ . DS . "vendor" . DS . "autoload.php";
 
 use Thiagoalgo\Vtex\Config\Config;
-use Thiagoalgo\Vtex\Api\Oms\Order;
+use Thiagoalgo\Vtex\Api\Oms\Order\Order;
 
 $config = new Config('vtex.json');
 var_dump($config);

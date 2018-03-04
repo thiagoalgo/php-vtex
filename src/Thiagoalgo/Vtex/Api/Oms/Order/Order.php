@@ -1,7 +1,6 @@
 <?php
 
-namespace Thiagoalgo\Vtex\Api\Oms;
-
+namespace Thiagoalgo\Vtex\Api\Oms\Order;
 
 use GuzzleHttp\Client;
 use Thiagoalgo\Vtex\Config\Config;
