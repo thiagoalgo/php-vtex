@@ -1,3 +1,4 @@
 /vendor/
 .idea
 vtex.json
+vtex.json.test
