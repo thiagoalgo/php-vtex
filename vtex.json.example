@@ -1,0 +1,6 @@
+{
+    "account": "youraccount",
+    "environment": "vtexcommercestable",
+    "key": "yourappkey",
+    "token": "youapptoken"
+}

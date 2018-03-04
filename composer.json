@@ -3,5 +3,8 @@
         "psr-4": {
             "Thiagoalgo\\": "src/Thiagoalgo"
         }
+    },
+    "require": {
+        "hassankhan/config": "^1.0"
     }
 }
