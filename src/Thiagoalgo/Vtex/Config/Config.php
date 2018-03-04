@@ -35,4 +35,8 @@ class Config {
 
     }
 
+    public function getBaseUrl() {
+        return "http://" . $this->account . "." . $this->environment  . ".com.br";
+    }
+
 }

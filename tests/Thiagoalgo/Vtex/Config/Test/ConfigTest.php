@@ -3,7 +3,6 @@
 namespace Thiagoalgo\Vtex\Config\Test;
 
 use Thiagoalgo\Vtex\Config\Config;
-
 use PHPUnit\Framework\TestCase;
 
 class ConfigTest extends TestCase {
@@ -14,7 +13,7 @@ class ConfigTest extends TestCase {
         $this->config = new Config();
     }
 
-    public function testInstanceOfConfig() {
+    public function testIsInstanceOfConfig() {
         $this->assertInstanceOf(Config::class, $this->config);
     }
 
