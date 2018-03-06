@@ -6,7 +6,8 @@ use Thiagoalgo\Vtex\Config\Config;
 use Thiagoalgo\Vtex\Api\Oms\Orders\Order;
 use PHPUnit\Framework\TestCase;
 
-class OrderTest extends TestCase {
+class OrderTest extends TestCase
+{
     protected $config;
 
     public function setUp() {
@@ -21,4 +22,4 @@ class OrderTest extends TestCase {
     }
 
 
-} 
+}
